@@ -1,0 +1,43 @@
+{
+  "name": "opencode-1m-context",
+  "version": "0.1.0",
+  "description": "OpenCode plugin that enables 1M token context window for Anthropic Claude models on any provider (Anthropic direct, Aperture, OpenRouter, Bedrock, etc.)",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "opencode",
+    "plugin",
+    "anthropic",
+    "claude",
+    "1m",
+    "context",
+    "aperture"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asckaya/opencode-1m-context.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@opencode-ai/plugin": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "typescript": "^5.0.0"
+  }
+}
