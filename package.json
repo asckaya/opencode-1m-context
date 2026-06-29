@@ -1,6 +1,6 @@
 {
   "name": "opencode-1m-context",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "OpenCode plugin that enables 1M token context window for Anthropic Claude models on any provider (Anthropic direct, Aperture, OpenRouter, Bedrock, etc.)",
   "type": "module",
   "main": "dist/index.js",
